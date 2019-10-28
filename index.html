@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    *{
+      list-style-type: none;
+      text-decoration:none;
+      margin: 0px;
+    }
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      position:absolute;
+    }
+    .swiper-container1 {
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      position:absolute;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+       align-items: center;
+       justify-content: center;
+      
+    }
+    .call0{
+      height: 7%;
+      background-color: #3a3a6d;
+    }
+    .call0 h3,a{
+      color: #fff;
+    }
+   
+  </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="i18"> 
+          <div class="call">
+            <img src="img/iphone.png">
+            <a href="tel:08090910089">
+            <div class="call_text">联系我们</div>
+          </a>
+          </div>
+        </div>
+      <div class="nav1">
+          <div id="nav0" class="nav0"><img src="img/list.png"></div>
+          <div id="top" class="nav2">首页</div>
+          <div id="meun" class="nav2">价格表</div>
+          <div id="photo" class="nav2">展示模板</div>
+      </div>
+    </div>
+  <!-- Swiper -->
+<div class="swiper-container ">  
+    <div class="swiper-wrapper" id="monitor">
+      <div class="swiper-slide">
+        <div class="logo" id="logo" style="display: none">
+          <div><img src="img/logo.png" style="width: 125px;">
+            <br>
+            <p>深雪グループ</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide div2" id="aaa">
+          <div class="ant text1">
+              初&nbsp;回&nbsp;限&nbsp;定&nbsp;2&nbsp;万
+              <br>
+              <div>专业移动端制作</div>
+          </div>
+        <div class="ant past2">
+            <div class="sample1">
+                <img src="img/home5.png" id="sss" class="ani flash" >
+                <div class="ani bounceInDown text2">
+                    个性定制，拒绝模板制作
+                    <br>
+                    <br>
+                    最快3天可完成
+                </div>
+            </div>
+        </div>
+      </div>
+       <div class="swiper-slide"> 
+        <div class="ant sample2">
+          <div class="text3">
+            <img src="img/iphon.png" >
+            <br>
+            移动端专门
+            <br>
+            专业手机版网页制作
+          </div>
+          <br>
+          <div class="text3">
+            <img src="img/first.png">
+            <br>
+            个性定制
+            <br>
+            没有模板，新颖重新定制
+          </div>
+          <br>
+          <div class="text3">
+            <img src="img/do.png">
+            <br>
+            最快3天内完成
+            <br>
+            3个~5个工作日内完成
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide"> 
+        <div class="ant sample2">
+          <div class="text3">
+            <img src="img/t3.png" >
+            <br>
+            网站分析
+            <br>
+            每月免费网站数据报告
+          </div>
+          <br>
+          <div class="text3">
+            <img src="img/t2.png">
+            <br>
+            推特引入
+            <br>
+           注册推特账号免费引入网页
+          </div>
+          <br>
+          <div class="text3">
+            <img src="img/t1.png">
+            <br>
+            谷歌地图修改
+            <br>
+            看板店免费更新谷歌地图
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+      <div  class="past4">
+          <img src="img/pay.png" style="width: 80px;">
+          <div class="text3 text0">
+             <div class="title_">初回定制2万円</div>
+             <!-- <div style="color: #000">税込2円</div> -->
+             <hr>
+             <div class=" Description">
+             管理费：5000円/月
+             <br>
+             包括：每月域名，服务器费用。
+             <br>
+            店员照片更新、新闻更新。
+            </div>
+          </div> 
+          <div class="text3 text0">
+              <div class="title_">个性定制3万円</div>
+              <!-- <div style="color: #000">税込2.75円</div> -->
+              <hr>
+              <div class=" Description">
+              管理费：15000円/年
+              <br>
+              包括：每月域名，服务器费用。
+             </div>
+           </div>   
+           <div class="call0 text3"><h3><a href="tel:09090910089">马上联系我们</a></h3></div>
+      </div>
+      </div>
+      <div class="swiper-slide"> 
+          <div class="swiper-container1">
+              <div class="text5">实例展示,向右滑动</div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-color: rgb(254, 204, 225);">
+                  <div class="photo">
+                      <img src="img/home5.png">
+                  </div>
+                </div>
+                <div class="swiper-slide" style="background-color: rgb(255, 178, 133);">
+                    <div class="photo">
+                        <img src="img/home0.png">
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-color: rgb(97, 25, 25);">
+                    <div class="photo">
+                        <img src="img/home2.png">
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-color: rgb(97, 25, 25);">
+                    <div class="photo">
+                        <img src="img/home4.png">
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-color:rgb(255, 216, 176);">
+                    <div class="photo">
+                        <img src="img/home1.png">
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-color:rgb(25, 37, 60);">
+                   <div class="photo">
+                        <img src="img/home6.png">
+                   </div>
+               </div> 
+                 <div class="swiper-slide" style="background-color: #f443ff;">
+                      <div class="photo">
+                          <img src="img/home7.png">
+                  </div> 
+                </div>  
+                  <div class="swiper-slide" style="background-color:rgb(230, 124, 125);">
+                        <div class="photo">
+                            <img src="img/home8.png">
+                  </div> 
+                </div>  
+                <div class="swiper-slide" style="background-color:rgb(127, 43, 44);">
+                  <div class="photo">
+                      <img src="img/home3.png">
+                  </div>  
+                </div>
+              </div>
+            </div>
+      </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</div>
+  
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"> </script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      scrollbar: '.swiper-scrollbar',
+        direction: 'vertical',
+        slidesPerView: 'auto',
+        mousewheelControl: true,
+        // freeMode: true,
+        freeModeMomentumRatio : 2,
+    });
+    $('#top').click(function(){
+      　　swiper.setWrapperTransition(500);
+      　　swiper.setWrapperTranslate(0);
+    })
+   $('#meun').click(function(){
+    var Height = swiper.height*3
+      　　swiper.setWrapperTransition(500);
+      　　swiper.setWrapperTranslate("-"+Height );
+    })
+   $('#photo').click(function(){
+    var Height = swiper.height*4
+      　　swiper.setWrapperTransition(500);
+      　　swiper.setWrapperTranslate("-"+Height );
+    })
+	  var mySwiper = new Swiper('.swiper-container1',{
+    direction : 'horizontal',
+    })
+  </script>
+  <script>
+  $(window).ready(function(){
+    $("#logo").fadeIn(1800);
+    $(".nav2").animate({right:'-100px'},1200); 
+  });
+  $(".swiper-slide").on("touchstart", function() {
+    $(".nav2").animate({right:'-100px'},800); 
+  });
+  $("#nav0").click(function(){
+    $(".nav2").animate({ display: 'block',right:'0px'});
+      if($('.nav2').css('right') == '0px')
+      {
+      $(".nav2").animate({ display: 'block',right:'-100px'});
+      }
+});
+
+  </script>
+</body>
+</html>
+<!-- transform: translate3d(0px, -812px, 0px); -->
