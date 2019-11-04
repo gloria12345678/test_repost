@@ -7,7 +7,7 @@ document.write('<script src="../swiper.min.js"></script>');
 fetch(myApi)
 .then(function(response) {
    if (!response.ok) {
-    throw new Error("HTTP error, status = " + response.status);
+    // throw new Error("HTTP error, status = " + response.status);
   }
   return response.json();
 })
@@ -27,7 +27,7 @@ fetch(myApi)
 .catch(function(error) {
   var p = document.createElement('p');
   p.appendChild(
-    document.createTextNode('Error: ' + error.message)
+    // document.createTextNode('Error: ' + error.message)
   );
   document.body.insertBefore(p, myList);
 });
@@ -72,7 +72,7 @@ console.log(myList);
 fetch(myApi)
 .then(function(response) {
    if (!response.ok) {
-    throw new Error("HTTP error, status = " + response.status);
+    // throw new Error("HTTP error, status = " + response.status);
   }
   return response.json();
 })
@@ -101,7 +101,7 @@ fetch(myApi)
 .catch(function(error) {
   var p = document.createElement('p');
   p.appendChild(
-    document.createTextNode('Error: ' + error.message)
+    // document.createTextNode('Error: ' + error.message)
   );
   // document.body.insertBefore(p, myList);
 });
