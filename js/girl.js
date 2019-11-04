@@ -89,12 +89,12 @@ fetch(myApi)
       img[j]="staff/all.jpg"
    }
   }
-   para.innerHTML = '<div class="staffBox"><div class="staPhotoffBox"><div class="staBigPhotoffBox"><div class="swiper-container" id="swiper'+i+'"><div class="swiper-wrapper"><div class="swiper-slide"><img id="img1" src="'+ img[0]+'"></div><div class="swiper-slide"><img id="img2" src="'+ img[1]+'"></div> <div class="swiper-slide"><img id="img3" src="'+ img[2]+'"></div></div></div></div><div class="staPhotoffBoxSmall"><ul><li><img id="" src="staff/a.jpg"></li><li><img id="" src="staff/all.jpg"></li><li><img id="" src="staff/all.jpg"></li></ul></div></div><div class="txt"><h2 id="name">' + json[i].name+ '</h2> <br><h2 id="old">年齢:' + json[i].age+ '</h2><br><h3 id="sizi">3サイズ：B:83　W:56　H：85</h3><br><h4 id="txt">' + json[i].description + '</h4></div></div>';
-    console.log("aaaaa")
+   para.innerHTML = '<div class="staffBox"><div class="staPhotoffBox"><div class="staBigPhotoffBox"><div class="swiper-container" id="swiper'+i+'"><div class="swiper-wrapper"><div class="swiper-slide"><img id="img1" src="'+ img[0]+'"></div><div class="swiper-slide"><img id="img2" src="'+ img[1]+'"></div> <div class="swiper-slide"><img id="img3" src="'+ img[2]+'"></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div><div class="staPhotoffBoxSmall"><ul><li><img id="image0" src="'+ img[0]+'"></li><li><img id="image1" src="'+ img[1]+'"></li><li><img id="image2" src="'+ img[2]+'"></li></ul></div></div><div class="txt"><h2 id="name">' + json[i].name+ '</h2> <br><h2 id="old">年齢:' + json[i].age+ '</h2><br><h3 id="sizi">3サイズ：B:83　W:56　H：85</h3><br><h4 id="txt">' + json[i].description + '</h4></div></div>';
    myList.appendChild(para);
    var mySwiper = new Swiper('#swiper'+i,{
-    direction : 'horizontal',
-    loop : true
+    initialSlide :0,
+    prevButton:'.swiper-button-prev',
+    nextButton:'.swiper-button-next',
   })
    }
 })

@@ -40,6 +40,11 @@
     height: 58px;
     float: left;
   }
+  .staPhotoffBoxSmall ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .staPhotoffBoxSmall ul{
     width: 100%;
   }
