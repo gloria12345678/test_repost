@@ -14,9 +14,9 @@ a{
 }
 .body{
     background-color:#000000;/*改*/
-    background-image:url(../img/body.png);
+    background-image:url(../img/body.png) ,url(../img/body2.png) ;
     background-attachment:fixed;
-    background-position: top;
+    background-position: top bottom;
 }
 .body1{
     background-color:#000000;/*改*/
