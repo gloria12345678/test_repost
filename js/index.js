@@ -11,7 +11,7 @@ $(document).ready(function(){
       var b=$("body").height()
       console.log(a);
       
-      if(b>700){
+      if(b>600){
         $("body").removeClass("body");
         $("body").addClass("body1");
       }
