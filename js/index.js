@@ -9,13 +9,15 @@ $(document).ready(function(){
       var c=$(window).height(); 
       var a=$(document).scrollTop()
       var b=$("body").height()
+      console.log(a);
+      
+      if(b>700){
+        $("body").removeClass("body");
+        $("body").addClass("body1");
+      }
       if(a<200){
         $("body").addClass("body");
         $("body").removeClass("body1");
-      }
-      if(b-a==c){
-        $("body").removeClass("body");
-        $("body").addClass("body1");
       }
     }); 
   });
