@@ -14,9 +14,15 @@ a{
 }
 .body{
     background-color:#000000;/*改*/
-    background-image:url(../img/body.png) ,url(../img/body2.png) ;
+    background-image:url(../img/body.png) ;
     background-attachment:fixed;
-    background-position: top,bottom;
+    background-position: top;
+}
+.body1{
+    background-color:#000000;/*改*/
+    background-image:url(../img/body2.png);
+    background-attachment:fixed;
+    background-position:bottom;
 }
 .nav{
     width: 99%;
