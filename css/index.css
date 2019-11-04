@@ -1,0 +1,139 @@
+/*10/8*/
+/*toyo*/
+
+.girlPhoto{
+    height: 200px;
+    background-color: #000000d9;
+}
+.swiper-container{
+    /* width: 100%; */
+    height: 100%;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.girlPhotoBigBox{
+    width: 45%;
+    height: 81%;
+}
+.girlPhotoBox{
+    width: 95%;
+    height: 85%;
+    border: 3px #c19924 solid;
+    border-radius: 5px 5px 0 0;
+}
+.girlPhotoBox img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.girlPhotoName{
+    width: 95%;
+    height: 12%;
+    background-color: #ffffff;
+    color: #ff7f24;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px #c19924 solid;
+}
+.girlPhotoLage{
+    display: none;
+}
+.event{
+    height: 180px;
+    background-image: url(../img/event.png);
+    display: none;
+}
+.news{
+    height: 600px;
+    background-color: #000000ab;
+}
+.newsTitle{
+    height: 13%;
+    background-image: url(../img/news.png);
+}
+.newsText{
+    height: 82%;
+    width: 94%;
+    margin: 3%;
+    overflow-y: scroll;
+    border: 1px white solid;
+    border-radius: 10px;
+}
+.text{
+    height: 300px;
+    width: 95%;
+    margin: 3%;
+    font-size: 18px;
+    color: #ffffff;
+}
+.text p{
+    width: 100%;
+    color: orange;
+}
+.map{
+    background-image: url(../img/accerss.png);
+}
+.line{
+    background-image: url(../img/line.png);
+}
+@media screen and (min-width:700px) {
+.newsTitle {
+    height: 14%;
+}
+}
+@media screen and (min-width:900px) {
+
+    .girlPhotoLage{
+        display: block;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .girlPhotoBigBox{
+        width: 24%;
+        height: 98%;
+    }
+    .news{
+        height: 700px;
+        width: 423px;
+        float: left;
+    }
+    .line{
+        display: none;
+    }
+    .girlPhotoBox {
+        height: 70%;
+    }
+    .newsAndMolir{
+        display: block;
+        height: 700px;
+       
+    }
+    .news1{
+        width: 50%;
+        height: 100%;
+        float: left;
+        overflow-y: scroll;
+
+    }
+.newsText {
+    height: 90%;
+}
+    .molir{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background-image: url(../img/qrcode.png);
+        background-size: unset;
+    }
+    .newsTitle{
+        height: 50px;
+        background-color: ghostwhite;
+    }
+}
