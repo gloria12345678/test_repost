@@ -22,12 +22,15 @@ fetch(myApi)
    var k = i+i+1
    girlPhoto.innerHTML = '<div class="girlPhotoBigBox"><div class="girlPhotoBox"><img src="https://test-cms-alpha.herokuapp.com'+json[j].avatars[0]+'"> <div class="girlPhotoName"> ' + json[j].name+ '</div></div></div><div class="girlPhotoBigBox"><div class="girlPhotoBox"><img src="https://test-cms-alpha.herokuapp.com'+json[k].avatars[0]+'"><div class="girlPhotoName"> ' + json[k].name+ '</div></div></div>';
    apiList.appendChild(girlPhoto);
+   var swiper = new Swiper('.swiper-container', {
+    autoplay: 2000,
+      });
   }
 })
 .catch(function(error) {
   var p = document.createElement('p');
   p.appendChild(
-    // document.createTextNode('Error: ' + error.message)
+    document.createTextNode('Error: ' + error.message)
   );
   document.body.insertBefore(p, myList);
 });

@@ -8,9 +8,7 @@ $(document).ready(function(){
     $(window).scroll(function () {
       var c=$(window).height(); 
       var a=$(document).scrollTop()
-      var b=$("body").height()
-      console.log(a);
-      
+      var b=$("body").height() 
       if(b>600){
         $("body").removeClass("body");
         $("body").addClass("body1");
