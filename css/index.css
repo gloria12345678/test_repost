@@ -80,6 +80,9 @@ object-fit: cover;
 .line{
     background-image: url(../img/line.png);
 }
+.wechat{
+    background-image: url(../img/wechat.png);
+}
 @media screen and (min-width:700px) {
 .newsTitle {
     height: 14%;
